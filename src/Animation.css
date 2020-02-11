@@ -1,0 +1,64 @@
+img.img1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: myfirst1 10s linear infinite;
+  }
+  
+  /* Standard syntax */
+  @keyframes myfirst1 {
+    0%  {
+            
+            left:0px;
+            top:100%;
+        }
+    25%  {
+            left:0px;
+            top:70%;
+        }
+    50%  {
+            left:0px;
+            top:40%;
+        }
+    75%  {
+            left:0px;
+            top:10%;
+        }
+    100% {
+            left:0px;
+            top:-20%;
+        }
+  }
+
+img.img2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: myfirst2 8s linear infinite;
+  }
+  
+  
+  /* Standard syntax */
+  @keyframes myfirst2 {
+    0%  {
+            
+            left:500px;
+            top:100%;
+        }
+    25%  {
+            left:500px;
+            top:70%;
+        }
+    50%  {
+            left:500px;
+            top:40%;
+        }
+    75%  {
+            left:500px;
+            top:10%;
+        }
+    100% {
+            left:500px;
+            top:-20%;
+        }
+  }
