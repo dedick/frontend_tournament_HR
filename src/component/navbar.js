@@ -16,11 +16,6 @@ const NavBar = () => {
     return(
         <div>
             <AppBar position="static" style={styles.appbar}>
-                <Toolbar>
-                    <Typography variant="title" color="inherit" >
-                        Human Resources Machine Contest
-                    </Typography>
-                </Toolbar>
             </AppBar>
         </div>
     )

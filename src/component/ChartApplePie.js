@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
 import { withStyles } from '@material-ui/core/styles';
-var CanvasJSReact = require('../lib/canvasjs.react');
-var CanvasJS = CanvasJSReact.CanvasJS;
-var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 const styles = {
   navbar: {
@@ -12,10 +9,6 @@ const styles = {
 
 
 class ChartApplePie extends Component {
-
-  constructor(){
-    super();
-  }
 
   render() {
     const options = {
