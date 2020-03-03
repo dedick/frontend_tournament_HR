@@ -86,7 +86,7 @@ class EmptyComponent extends Component {
                   style={{marginBottom: 20, borderRadius: 4, borderWidth: 0.5, borderColor: '#005AB5'}}>
                 <Grid item xs={12} lg={8}>
                     <Grid container justify={"center"}>
-                        <div style={{width: "59.25vw", display: "flex", justifyContent: "center"}}>
+                        <div style={{width: "39.5vw", display: "flex", justifyContent: "center"}}>
                             <img style={{
                                 maxWidth: "100%",
                                 maxHeight: "100%",
@@ -96,14 +96,20 @@ class EmptyComponent extends Component {
                     <div className={this.classes.layout}>
                         <main style={{textAlign: 'center'}}>
                             {/* Main featured post */}
-                            <Grid className={this.classes.mainFeaturedPost} container justify={"center"}>
-                                <Grid container xs={6} justify={"center"}>
+                            <Grid style={{
+                                position: "absolute",
+                                top: "0",
+                                right: "0",
+                                width: "30%",
+                                backgroundColor: "rgb(230, 219, 205)"
+                            }} className={this.classes.mainFeaturedPost} container justify={"center"}>
+                                <Grid container xs={12} justify={"center"}>
                                     <Grid item xs={12}>
                                         <div className={this.classes.mainFeaturedPostContent}>
-                                            <img style={{height: 100, marginTop: 30, marginBottom: 30}} src={logo}
+                                            <img style={{height: 80, marginTop: 30, marginBottom: 30}} src={logo}
                                                  alt={"logo epitech"}/>
-                                            <Typography component="h1" variant="h3" color="inherit" gutterBottom
-                                                        style={{color: '#005AB5'}}>
+                                            <Typography variant="h3" color="inherit" gutterBottom
+                                                        style={{fontSize: "2em",color: '#005AB5'}}>
                                                 ¿Quieres descubrir tu potencial para ser programador?
                                             </Typography>
                                             <Typography variant="h4" color="inherit" paragraph style={{marginTop: 30}}>
